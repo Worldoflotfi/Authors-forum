@@ -1,6 +1,6 @@
-const Post=require('../server/Models/post')
-const User = require('../server/Models/User')
-const user=require('../server/Models/User')
+const Post=require('../models/post')
+const User = require('../models/User')
+const user=require('../models/User')
 const adminLayout = '../views/layouts/admin' 
 const bcrypt = require('bcrypt')
 const jwt=require("jsonwebtoken")
